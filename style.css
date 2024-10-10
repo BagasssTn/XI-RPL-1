@@ -1,0 +1,109 @@
+/* Style untuk teks shadow */
+.shadow-text {
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    text-shadow: 2px 2px 5px skyblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Font teks */
+.font2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: medium;
+}
+
+.font1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-style: small;
+}
+
+div{
+    padding: 10px;
+}
+
+/* Button untuk link */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Link yang berubah warna saat di hover */
+.hover-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.hover-link:hover {
+    color: red;
+}
+
+.link{
+    padding: 15px;
+}
+
+/* List dengan gambar sebagai bullet */
+.custom-list {
+    list-style-image: url(icon2.png); /* Ganti dengan URL gambar */
+}
+
+/* Tabel dengan warna berbeda setiap baris */
+.striped-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.striped-table th {
+    background-color: rgb(90, 90, 239);
+    color: #ffffff;
+    border: 1px solid cornflowerblue;
+    padding: 8px;
+    text-align: center;
+}
+    .striped-table td {
+        border: 1px solid cornflowerblue;
+        padding: 8px;
+}
+
+.striped-table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.striped-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Tabel dengan efek hover */
+.hover-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.hover-table th{
+    background-color: rgb(90, 90, 239);
+    color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.hover-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.hover-table tr:hover {
+    background-color: rgb(90, 90, 239);
+    color: #ffffff;
+}
